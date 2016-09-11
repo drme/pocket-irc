@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pocket-irc-uwa", "pocket-irc-uwa\pocket-irc-uwa.csproj", "{9F22B9BF-5940-48C3-8A77-FE2441251A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pocket-irc-lib-uwa", "pocket-irc-lib-uwa\pocket-irc-lib-uwa.csproj", "{B6E50F6C-FA21-485C-A130-7873A18CB18A}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Debug|ARM.Build.0 = Debug|ARM
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Debug|ARM.Deploy.0 = Debug|ARM
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Debug|x64.ActiveCfg = Debug|x64
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Debug|x64.Build.0 = Debug|x64
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Debug|x64.Deploy.0 = Debug|x64
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Debug|x86.ActiveCfg = Debug|x86
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Debug|x86.Build.0 = Debug|x86
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Debug|x86.Deploy.0 = Debug|x86
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Release|ARM.ActiveCfg = Release|ARM
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Release|ARM.Build.0 = Release|ARM
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Release|ARM.Deploy.0 = Release|ARM
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Release|x64.ActiveCfg = Release|x64
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Release|x64.Build.0 = Release|x64
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Release|x64.Deploy.0 = Release|x64
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Release|x86.ActiveCfg = Release|x86
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Release|x86.Build.0 = Release|x86
+		{9F22B9BF-5940-48C3-8A77-FE2441251A79}.Release|x86.Deploy.0 = Release|x86
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Debug|ARM.Build.0 = Debug|ARM
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Debug|x64.ActiveCfg = Debug|x64
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Debug|x64.Build.0 = Debug|x64
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Debug|x86.ActiveCfg = Debug|x86
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Debug|x86.Build.0 = Debug|x86
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Release|ARM.ActiveCfg = Release|ARM
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Release|ARM.Build.0 = Release|ARM
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Release|x64.ActiveCfg = Release|x64
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Release|x64.Build.0 = Release|x64
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Release|x86.ActiveCfg = Release|x86
+		{B6E50F6C-FA21-485C-A130-7873A18CB18A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

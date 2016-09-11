@@ -1,0 +1,34 @@
+﻿<Page x:Class="pocket_irc_uwa.OpenPrivatePage"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="using:pocket_irc_uwa"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" Background="#FF82982b">
+	<Page.BottomAppBar>
+		<CommandBar ClosedDisplayMode="Compact" x:Name="bottomAppBar">
+			<AppBarButton IsCompact="True" Label="Open private chat" Icon="Accept" Click="AcceptClick"/>
+		</CommandBar>
+	</Page.BottomAppBar>
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="48"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid Grid.Row="0" Background="#FF82982b">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="48"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			<Button FontFamily="Segoe MDL2 Assets" Content="&#xE72B;" Background="{x:Null}" Grid.Column="0" Foreground="WhiteSmoke" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="CancelClick"/>
+			<TextBlock Text="New private chat" Grid.Column="1" VerticalAlignment="Center" Foreground="WhiteSmoke"/>
+		</Grid>
+		<Grid Grid.Row="1" Margin="15">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="40"/>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+			<TextBox Grid.Row="0" HorizontalAlignment="Stretch" Name="TextBoxNick" VerticalAlignment="Center" PlaceholderText="Nick to chat to"/>
+		</Grid>
+	</Grid>
+</Page>

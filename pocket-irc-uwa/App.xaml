@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="pocket_irc_uwa.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:pocket_irc_uwa"
+    RequestedTheme="Light">
+
+</Application>

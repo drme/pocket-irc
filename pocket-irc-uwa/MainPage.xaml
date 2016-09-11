@@ -1,0 +1,45 @@
+﻿<Page x:Class="pocket_irc_uwa.MainPage"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="using:pocket_irc_uwa"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" Background="#FF82982b">
+	<Page.BottomAppBar>
+		<CommandBar ClosedDisplayMode="Compact">
+			<CommandBar.SecondaryCommands>
+				<AppBarButton x:Name="ConnectButton" IsCompact="True" IsEnabled="True" Label="Connect" Icon="Play" Click="ConnectClick"/>
+				<AppBarButton Icon="Dislike" Label="Settings" Click="SettingsClick"/>
+				<AppBarButton x:Name="ChangeNickButton" Icon="Dislike" Label="Change nick" Click="ChangeNickClick"/>
+				<AppBarButton x:Name="JoinButton" IsCompact="True" IsEnabled="True" Label="Join channel" Icon="Add" Click="JoinClick"/>
+				<AppBarButton x:Name="OpenPrivateChatButton" Icon="Dislike" Label="Private chat" Click="OpenPrivateClick"/>
+				<AppBarButton x:Name="DisconnectButton" Icon="Dislike" Label="Disconnect" Click="DisconnectClick"/>
+				<AppBarButton x:Name="WhoIsButton" IsCompact="True" IsEnabled="True" Label="Who is" Icon="Help" Click="WhoIsClick"/>
+				<AppBarButton x:Name="ClosePrivateChatButton" IsCompact="True" IsEnabled="True" Label="Close" Icon="Cancel" Click="ClosePrivateChatClick"/>
+				<AppBarButton x:Name="LeaveChannelButton" IsCompact="True" IsEnabled="True" Label="Leave channel" Icon="Cancel" Click="LeaveChannelClick"/>
+				<AppBarButton x:Name="BanUserButton" IsCompact="True" IsEnabled="True" Label="Ban user" Icon="Cancel" Click="BanUserClick"/>
+				<AppBarButton x:Name="KickUserButton" IsCompact="True" IsEnabled="True" Label="Kick user" Icon="Cancel" Click="KickUserClick"/>
+				<AppBarButton x:Name="VoiceUserButton" IsCompact="True" IsEnabled="True" Label="Voice user" Icon="Cancel" Click="VoiceUserClick"/>
+				<AppBarButton x:Name="DeVoiceUserButton" IsCompact="True" IsEnabled="True" Label="Devoice user" Icon="Cancel" Click="DeVoiceUserClick"/>
+				<AppBarButton x:Name="OpUserButton" IsCompact="True" IsEnabled="True" Label="Op user" Icon="Cancel" Click="OpUserClick"/>
+				<AppBarButton x:Name="DeOpUserButton" IsCompact="True" IsEnabled="True" Label="Deop user" Icon="Cancel" Click="DeOpUserClick"/>
+				<AppBarButton x:Name="PrivateChatButton" IsCompact="True" IsEnabled="True" Label="Private chat" Icon="Cancel" Click="PrivateChatClick"/>
+			</CommandBar.SecondaryCommands>
+		</CommandBar>
+	</Page.BottomAppBar>
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="48"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid Grid.Row="0" Background="#FF82982b">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="48"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			<TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE80F;" Grid.Column="0" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+			<TextBlock Text="My Pocket IRC" Grid.Column="1" VerticalAlignment="Center" Foreground="WhiteSmoke"/>
+		</Grid>
+		<Pivot Grid.Row="1" x:Name="mainWindow"/>
+	</Grid>
+</Page>
